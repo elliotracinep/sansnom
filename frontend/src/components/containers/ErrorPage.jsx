@@ -3,14 +3,16 @@ import audio from "../../assets/audio/fail1.mp3"
 
 const ErrorPage = () => {
     const start = () => {
-        new Audio(audio).play();
+       let bb = new Audio(audio);
+        bb.play();
     }
     return (
         <>
             <main>
                 <div className="error-card">
-                    <h1>Une erreur s'est produite...</h1>
-                    <button onClick={start}>célébrer votre défaite</button>
+                    <h1>:(</h1>
+                    <p>This website ran into a problem while loading the page you are trying to reach. Click <a href="/">here</a> to return to the homepage.</p>
+                    <button className="error-button" onClick={start}>Celebrate</button>
                 </div>
             </main>
         </>

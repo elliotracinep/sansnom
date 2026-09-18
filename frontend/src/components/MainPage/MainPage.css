@@ -7,6 +7,7 @@
     display: flex;
     margin: 75px;
     justify-content: center;
+    justify-self: center;
 
 }
 
@@ -18,6 +19,10 @@
     align-items: center;
     font-family: "helpme";
     letter-spacing: 2px;
-    font-size: small;
 }
-
+.info-card-text p {
+font-size: 20px;
+}
+.info-card-text h1 {
+font-size: 30px;
+}
