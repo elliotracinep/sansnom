@@ -1,0 +1,23 @@
+.info-card {
+    background-image: url("../../assets/img/frame_red.jpg");
+    min-width: 736px;
+    max-width: 736px;
+    min-height: 552px;
+    max-height: 552px;
+    display: flex;
+    margin: 75px;
+    justify-content: center;
+
+}
+
+.info-card-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    font-family: "helpme";
+    letter-spacing: 2px;
+    font-size: small;
+}
+

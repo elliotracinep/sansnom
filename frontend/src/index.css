@@ -1,5 +1,17 @@
 body {
-  margin: 0;
+  background-color: black;
 }
 
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+:root {
+  --font-info-card: "helpme";
+}
 
+@font-face {
+  font-family: "helpme";
+  src: url("./assets/fonts/HelpMe.ttf");
+}
